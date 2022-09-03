@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
     "scripts": {
-    "dev:app": "cd client && npm start",
-    "build": "react-scripts build",
+  
     "dev": "node index.js",
     "start": "node index.js",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
-    
+
   },
   "author": "",
   "license": "ISC",
