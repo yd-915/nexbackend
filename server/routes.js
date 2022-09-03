@@ -6,6 +6,9 @@ const messageController = require('./controllers/messageController');
 const isAuth = require('./middlewares/isAuth');
 
 
+router.get('/', (req, res) => {
+    res.send('Server is running')
+})
 
 
 router.use('/auth', authController);
